@@ -42,7 +42,7 @@ export function DescriptiontHome() {
             <div className="row-start-2 row-span-2 py-1">
               <div className="flex items-center justify-around" > 
                 <div className="w-3/5">
-                  <p className='text-9xl  font-extrabold text-left py-4'>My story</p>
+                  <p className='text-8xl  font-extrabold text-left py-4'>My story</p>
                   <p className='text-2xl text-justify py-4 ' >
                     Embarking on a journey that began with academic rigor, I earned a Master`s degree and 
                     obtained official recognition from the College of Engineers of Peru. Over the years, 
@@ -59,7 +59,7 @@ export function DescriptiontHome() {
             <div className="row-start-1 row-span-2 py-1">
               <div className="flex items-center justify-around "> 
                 <div className="w-3/5">
-                  <p className='text-9xl font-extrabold text-left py-4'>About Me</p>
+                  <p className='text-8xl font-extrabold text-left py-4'>About Me</p>
                   <p className='text-2xl text-justify pt-4 py-4' >
                   I am a dedicated professional in the realm of data engineering, holding a Master`s degree 
                   and accredited by the College of Engineers of Peru (CIP: 273242). With over 8 years of 
