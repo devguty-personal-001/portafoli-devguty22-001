@@ -5,14 +5,16 @@ export function TextHome() {
   return (
     <div className='flex items-center justify-center text-white'>
         <div className='w-2/3 py-32 text-clip ' >
-          <p className='text-6xl py-4 font-extrabold text-left'>Hello there, I`m</p>
+          <p className='text-7xl py-4 font-extrabold text-left'>Hello there, I`m</p>
           <p className='text-9xl py-4 font-extrabold text-left'>Miguel Gutierrez</p>
-          <p className='text-6xl py-4 font-extrabold text-left'>an Data Engineer from Latam</p>
-          <p className='text-xl text-justify py-4 y' >
-          Experienced engineer with a master`s degree and over 8 years in BIG DATA, 
-          specializing in data transformation, project leadership, and innovation across industries. 
-          Currently pursuing a doctoral program.
-          </p>
+          <p className='text-7xl py-4 font-extrabold text-left'>a Data Engineer from Latam</p>
+          <div className="w-3/5">
+            <p className='text-2xl text-justify py-4 y' >
+            Experienced engineer with a master`s degree and over 8 years in BIG DATA, 
+            specializing in data transformation, project leadership, and innovation across industries. 
+            Currently pursuing a doctoral program.
+            </p>
+          </div>
         </div>
       </div>
   );
