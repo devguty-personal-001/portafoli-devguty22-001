@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.navbar-container {
+  overflow: hidden; /* Hide content initially */
+  transition: transform 0.5s ease-in-out; /* Adjust duration as needed */
+  transform: translateY(-100%); /* Initial position (off-screen) */
+}
+
+.navbar-container.animate-open {
+  transform: translateY(0); /* Final position (on-screen) */
+}
