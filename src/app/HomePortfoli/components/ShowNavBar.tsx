@@ -12,29 +12,24 @@ export default function ShowNavBar() {
 
   return (
       <div className="" >
-        <div className="relative  bg-black overflow-hidden " >
+        <div className="relative overflow-hidden " >
           {!isNavBarVisible && (
             <>
-              <div className="absolute flex items-center justify-center w-full h-full gutyxs:pt-10 guty2xs:pt-5 pt-0 ">
-                <div className=" w-full gutyxs:h-5/6 guty2xs:h-5/6 h-full gutyxs:scale-y-150 guty2xs:scale-y-125 scale-y-100 " >
-                  <Image className=" opacity-45 "  
-                  src="/background_002.jpg" 
-                  alt="" 
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{
-                    width: '100%',
-                    height: '100%'
-                  }}
-                  >
-                  </Image>
-                </div>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 h-3/4"
-                  style={{
-                    background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7))',
-                  }}>
+              <div className="absolute w-full h-full ">
+                <div className="absolute inset-0 flex items-center justify-center overflow-hidden" >
+                    <Image className=" object-cover object-top opacity-45 "  
+                    src="/background_002_001.png" 
+                    alt="" 
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{
+                      width: '100%',
+                      height: '100%'
+                    }}
+                    >
+                    </Image>
+                  </div>
               </div>
             </>
           )}

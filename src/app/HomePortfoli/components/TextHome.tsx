@@ -27,8 +27,8 @@ export function DescriptiontHome() {
         <div className="absolute w-full h-full">
           <div className=" w-full h-full ">
             <div className="absolute inset-0 flex items-center justify-center overflow-hidden ">
-              <div className=" relative w-5/6 h-full ">
-                <Image className="w-full h-full object-cover opacity-60 " 
+              <div className=" w-5/6 h-full ">
+                <Image className="object-cover opacity-60 " 
                   src="/background_003_002.png" 
                   alt="" 
                   width="0"
