@@ -38,7 +38,7 @@ export default function ShowNavBar() {
               </div>
             </>
           )}
-          <div className=' relative px-8 pt-10 pb-20'>
+          <div className=' relative gutyxs:px-0 px-8 gutyxs:pb-0 pb-20 gutyxs:pt-0  guty2xs:pt-0  pt-10'>
             <ButtonsNavbar setIsNavBarVisible={setIsNavBarVisible} isNavBarVisible={isNavBarVisible}></ButtonsNavbar>
           </div>
           {!isNavBarVisible && (
