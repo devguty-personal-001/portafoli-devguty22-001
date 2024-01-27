@@ -16,6 +16,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens:{
+      '3xs': {'max': '349px'},
+      '2xs': {'min': '350px', 'max': '499px'},
+      'xs': {'min': '500px', 'max': '639px'},
+      'sm': {'min': '640px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
+      'xl': {'min': '1280px', 'max': '1535px'},
+      '2xl': {'min': '1536px'}
+    },
   },
   darkMode: "class",
   plugins: [
@@ -25,3 +35,4 @@ const config: Config = {
   ],
 };
 export default config;
+

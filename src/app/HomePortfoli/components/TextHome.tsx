@@ -23,20 +23,31 @@ export function TextHome() {
 export function DescriptiontHome() {
   return (
     <div>
-      <div className="relative pt-32 pb-28 bg-black overflow-hidden">
-        <Image className="absolute top-0 left-0 opacity-40" 
-          src="/background_003.jpg" 
-          alt="" fill
-          style={{objectFit: 'cover',objectPosition:"top"}}>
-          </Image>
-        <div className="absolute inset-x-0 bottom-0 h-3/4"
+      <div className="relative  pb-28 bg-black overflow-hidden">
+        <div className="absolute flex items-center justify-center w-full h-auto 3xs:pt-10 2xs:pt-16 xs:pt-24 sm:pt-14 md:pt-20">
+          <div className="w-full h-auto 3xs:scale-y-150 2xs:scale-y-150 xs:scale-y-150 sm:scale-y-125 md:scale-y-125 scale-y-100 ">
+            <Image className="opacity-50 " 
+              src="/background_003.jpg" 
+              alt="" 
+              width="0"
+              height="0"
+              sizes="100vw"
+              style={{
+                width: '100%',
+                height: '100%'
+              }}
+              >
+            </Image>
+          </div>
+        </div>
+        <div className="absolute inset-x-0 bottom-0 3xs:h-20 2xs:h-24 xs:h-32 sm:h-40 md:h-56 h-72"
             style={{
-              background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7))',
+              background: ' linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8))',
             }}>
         </div>
-        <div className="absolute inset-x-0 top-0 h-3/4"
+        <div className="absolute inset-x-0 top-0 3xs:h-20 2xs:h-24 xs:h-32 sm:h-40 md:h-56 h-72"
             style={{
-              background: 'linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9))',
+              background: ' linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))',
             }}>
         </div>
         <div className="relative  flex items-center justify-center">
