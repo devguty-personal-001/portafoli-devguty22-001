@@ -23,38 +23,28 @@ export function TextHome() {
 export function DescriptiontHome() {
   return (
     <div>
-      <div className="relative  bg-black overflow-hidden">
+      <div className="relative  overflow-hidden">
         <div className="absolute w-full h-full">
-          <div className=" relative w-full h-full">
-            <div className=" absolute inset-0  flex items-center justify-center  3xs:pt-10 2xs:pt-16 xs:pt-24 sm:pt-14 md:pt-20">
-              <div className="  w-full  h-full  gutyxs:scale-y-150 guty2xs:scale-y-125 scale-y-100 ">
-                <Image className="opacity-50 " 
-                  src="/background_003.jpg" 
+          <div className=" w-full h-full ">
+            <div className="absolute inset-0 flex items-center justify-center overflow-hidden ">
+              <div className=" relative w-5/6 h-full ">
+                <Image className="w-full h-full object-cover opacity-60 " 
+                  src="/background_003_002.png" 
                   alt="" 
                   width="0"
                   height="0"
                   sizes="100vw"
                   style={{
                     width: '100%',
-                    height: '100%'
+                    height: '100%',
                   }}
                   >
                 </Image>
               </div>
             </div>
-            <div className="absolute  inset-x-0 bottom-0 gutylg:h-1/6 h-1/3"
-                style={{
-                  background: ' linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8))',
-                }}>
-            </div>
-            <div className="absolute  inset-x-0 top-0 gutylg:h-1/6 h-1/3"
-                style={{
-                  background: ' linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))',
-                }}>
-            </div>
           </div>
         </div>
-        <div className="relative gutyxs:pt-36 guty2xs:pt-48 pt-72 flex items-center justify-center ">
+        <div className="relative gutyxs:pb-10 guty2xs:pb-16 gutyxs:pt-10 guty2xs:pt-20 pt-72 flex items-center justify-center ">
           <div className="grid gutylg:grid-rows-2 grid-rows-3 grid-flow-col gap-4">
             <div className="guty2lg:row-start-1 row-start-2 guty2lg:row-span-1 row-span-2 py-1">
               <div className="flex items-center justify-around" > 
@@ -77,7 +67,7 @@ export function DescriptiontHome() {
               <div className="flex items-center justify-around "> 
                 <div className="gutyxs:w-11/12 guty2xs:w-10/12 w-9/12">
                   <p className='guty2lg:text-3xl text-8xl font-extrabold text-left guty2lg:py-1 py-4'>About Me</p>
-                  <p className='guty2lg:text-xs text-2xl text-justify pt-4 guty2lg:py-0 py-4' >
+                  <p className='guty2lg:text-xs text-2xl text-justify pt-4 guty2lg:py-0 py-4 ' >
                   I am a dedicated professional in the realm of data engineering, holding a Master`s degree 
                   and accredited by the College of Engineers of Peru (CIP: 273242). With over 8 years of 
                   experience, my expertise spans BIG DATA ENGINEERING, DATA ARCHITECTURE, and FULL STACK 
