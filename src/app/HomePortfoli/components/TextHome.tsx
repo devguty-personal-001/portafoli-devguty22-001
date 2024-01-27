@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import { BarSocialMedia } from "@/components/ButtomClick";
 
 export function TextHome() {
   return (
@@ -26,8 +27,8 @@ export function DescriptiontHome() {
       <div className="relative  overflow-hidden">
         <div className="absolute w-full h-full">
           <div className=" w-full h-full ">
-            <div className="absolute inset-0 flex items-center justify-center overflow-hidden ">
-              <div className=" w-5/6 h-full ">
+            <div className="absolute inset-0 flex items-center justify-center overflow-hidden w-full h-full">
+              <div className=" w-8/12 h-full ">
                 <Image className="object-cover opacity-60 " 
                   src="/background_003_002.png" 
                   alt="" 
@@ -98,6 +99,24 @@ export function DescriptiontHome() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+export function FollowMyHome() {
+  return (
+    <div className="h-full w-full py-10">
+      <div className="grid grid-rows-2 grid-flow-col gap-4 ">
+        <div className="inline-flex items-center justify-center w-full">
+          <hr className="w-3/12 warxs:w-2/12 h-unit-2  bg-gray-200 border-0 dark:bg-gray-700"></hr>
+          <h1 className="guty2lg:text-2xl text-7xl font-extrabold text-center px-5">Follow my work</h1>
+          <hr className="w-3/12 warxs:w-2/12 h-unit-2  bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        </div>
+        <div className="flex items-center justify-center">
+          <BarSocialMedia></BarSocialMedia>
         </div>
       </div>
     </div>
