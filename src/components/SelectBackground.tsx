@@ -26,7 +26,7 @@ export function ButtonsNavbar({ setIsNavBarVisible, isNavBarVisible }: ButtonsNa
 
   return (
     <div>
-      <div className="grid grid-cols-3 3xs:gap-0 2xs:gap-0 xs:gap-0 gap-4 gutyxs:pt-12 guty2xs:pt-7 pt-10">
+      <div className="grid grid-cols-3 gutyxs:gap-0 gap-4 gutyxs:pt-12 guty2xs:pt-7 pt-10">
         <div className='flex  items-center justify-center'>
           {!isNavBarVisible && (
             <div className='gutyxs:scale-y-100 gutyxs:scale-x-75 scale-x-150 scale-y-125'>

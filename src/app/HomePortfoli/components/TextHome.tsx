@@ -92,16 +92,16 @@ export function DescriptiontHome() {
                 <div className="flex items-end justify-end  gutylg:py-0 py-4">
                   <div className="gutyxs:w-11/12 guty2xs:w-10/12 w-9/12">
                     <div className="grid grid-rows-2 grid-flow-col guty2lg:gap-1 gap-4 ">
-                      <p className="guty2lg:text-2xl text-9xl font-extrabold text-left">8+</p>
-                      <p className="guty2lg:text-sm text-3xl font-extrabold text-left">Years of experience</p>
+                      <p className="guty2lg:text-xl text-9xl font-extrabold text-left">8+</p>
+                      <p className="guty2lg:text-xs text-3xl font-extrabold text-left">Years of experience</p>
                     </div>
                   </div>
                 </div>
                 <div className="flex items-start justify-start gutylg:py-0 py-4">
                   <div className="gutyxs:w-11/12 guty2xs:w-10/12 w-9/12">
                     <div className="grid grid-rows-2 grid-flow-col guty2lg:gap-1 gap-4">
-                      <p className="guty2lg:text-2xl text-9xl font-extrabold text-left">100+</p>
-                      <p className="guty2lg:text-sm text-3xl font-extrabold text-left">Completed Porjects+</p>
+                      <p className="guty2lg:text-xl text-9xl font-extrabold text-left">100+</p>
+                      <p className="guty2lg:text-xs text-3xl font-extrabold text-left">Completed Porjects+</p>
                     </div> 
                   </div>
                 </div>
