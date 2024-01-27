@@ -27,6 +27,8 @@ const config: Config = {
       '2xl': {'min': '1536px'},
       'gutyxs': {'max': '639px'},
       'guty2xs': {'min': '640px', 'max': '1535px'},
+      'gutylg': {'max': '1535px'},
+      'guty2lg': {'max': '1279px'},
     },
   },
   darkMode: "class",

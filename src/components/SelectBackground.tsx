@@ -29,7 +29,7 @@ export function ButtonsNavbar({ setIsNavBarVisible, isNavBarVisible }: ButtonsNa
       <div className="grid grid-cols-3 3xs:gap-0 2xs:gap-0 xs:gap-0 gap-4 gutyxs:pt-12 guty2xs:pt-7 pt-10">
         <div className='flex  items-center justify-center'>
           {!isNavBarVisible && (
-            <div className='scale-x-150 scale-y-125'>
+            <div className='gutyxs:scale-y-100 gutyxs:scale-x-75 scale-x-150 scale-y-125'>
               <ButtomClick 
               icon={<HamburgerIcon width={48} height={48}></HamburgerIcon>} 
               handleHamburgerClick={handleHamburgerClick}>
@@ -45,7 +45,7 @@ export function ButtonsNavbar({ setIsNavBarVisible, isNavBarVisible }: ButtonsNa
             </div>
           )}
         </div>
-        <div className='flex  items-center justify-center scale-y-125 scale-x-150'>
+        <div className='flex  items-center justify-center gutyxs:scale-y-100 gutyxs:scale-x-75 scale-y-125 scale-x-150'>
           <ButtomClick 
             icon={<HomeButton width={24} height={24}></HomeButton>} 
             handleHamburgerClick={handleButtonClick}>

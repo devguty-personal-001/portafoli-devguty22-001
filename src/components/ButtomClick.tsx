@@ -55,22 +55,22 @@ export function BarSocialMedia() {
   };
 
   return (
-    <div className="flex  items-center justify-center animate-bounce w-1/3 gap-4 ">
+    <div className="flex  items-center justify-center animate-bounce w-1/3 gutyxs:gap-0 gap-10 ">
       <Button className="bg-transparent" isIconOnly 
       onClick={() => handleClick("https://www.linkedin.com/in/miguel-g-452566184/")}>
-        <div className="scale-y-150 scale-x-150">
+        <div className="gutyxs:scale-y-100 gutyxs:scale-x-100 scale-y-150 scale-x-150">
           <LinkedinIcon width={24} height={24}></LinkedinIcon>
         </div>
       </Button>    
       <Button className="bg-transparent" isIconOnly 
       onClick={() => handleClick("https://github.com/joelguty1234")}>
-        <div className="scale-y-150 scale-x-150">
+        <div className="gutyxs:scale-y-100 gutyxs:scale-x-100 scale-y-150 scale-x-150">
           <GithubIcon width={40} height={40}></GithubIcon>
         </div>
       </Button>
       <Button className="bg-transparent" isIconOnly 
       onClick={() => handleClick("https://www.tiktok.com/@devguty33")}>
-        <div className="scale-y-150 scale-x-150">
+        <div className="gutyxs:scale-y-100 gutyxs:scale-x-100 scale-y-150 scale-x-150">
           <TiktokIcon width={24} height={24}></TiktokIcon>
         </div>
       </Button>

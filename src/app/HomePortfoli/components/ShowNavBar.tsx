@@ -15,8 +15,8 @@ export default function ShowNavBar() {
         <div className="relative  bg-black overflow-hidden " >
           {!isNavBarVisible && (
             <>
-              <div className="absolute flex items-center justify-center w-full h-auto 3xs:pt-10 2xs:pt-16 xs:pt-24 sm:pt-14 md:pt-20 ">
-                <div className=" w-full h-auto 3xs:scale-y-150 2xs:scale-y-150 xs:scale-y-150 sm:scale-y-125 md:scale-y-125 scale-y-100 " >
+              <div className="absolute flex items-center justify-center w-full h-full gutyxs:pt-10 guty2xs:pt-5 pt-0 ">
+                <div className=" w-full gutyxs:h-5/6 guty2xs:h-5/6 h-full gutyxs:scale-y-150 guty2xs:scale-y-125 scale-y-100 " >
                   <Image className=" opacity-45 "  
                   src="/background_002.jpg" 
                   alt="" 
@@ -38,7 +38,7 @@ export default function ShowNavBar() {
               </div>
             </>
           )}
-          <div className=' relative gutyxs:px-0 px-8 gutyxs:pb-0 pb-20 gutyxs:pt-0  guty2xs:pt-0  pt-10'>
+          <div className=' relative gutyxs:px-0 px-8 gutyxs:pb-0 pb-20 gutyxs:pt-0  guty2xs:pt-10  pt-20'>
             <ButtonsNavbar setIsNavBarVisible={setIsNavBarVisible} isNavBarVisible={isNavBarVisible}></ButtonsNavbar>
           </div>
           {!isNavBarVisible && (
