@@ -18,7 +18,7 @@ export default function ShowNavBar() {
               <div className="absolute flex items-center justify-center w-full h-auto 3xs:pt-10 2xs:pt-16 xs:pt-24 sm:pt-14 md:pt-20 ">
                 <div className=" w-full h-auto 3xs:scale-y-150 2xs:scale-y-150 xs:scale-y-150 sm:scale-y-125 md:scale-y-125 scale-y-100 " >
                   <Image className=" opacity-45 "  
-                  src="/background_002.jpg " 
+                  src="/background_002.jpg" 
                   alt="" 
                   width={0}
                   height={0}
