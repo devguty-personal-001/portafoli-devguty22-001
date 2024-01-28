@@ -8,7 +8,7 @@ interface NavBarTitleProps {
 export function NavBarTitle({ href }: NavBarTitleProps) {
   return (
     <li className='items-center'>
-      <a href={`/${href}`} 
+      <a 
         className='max-w-[1360px] flex items-center justify-center 
         text-4xl font-sans font-semibold
         py-4'>
@@ -26,3 +26,4 @@ export function NavBarTitle({ href }: NavBarTitleProps) {
 }
 
 
+{/* <a href={`/${href}`}  */}
